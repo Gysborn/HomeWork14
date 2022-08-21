@@ -64,7 +64,5 @@ def view_by_genre(genre):
 
 
 if __name__ == '__main__':
-    #app.run(debug=True)
+    app.run(debug=True)
 
-    print(step_5())
-    #print(step_6('TV Show', '2019', 'Dramas'))
