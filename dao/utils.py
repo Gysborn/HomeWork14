@@ -119,7 +119,7 @@ def step_5(name1='Jack Black', name2='Dustin Hoffman'):
     return together
 
 def step_6(typ, year, genre):
-    sql = f"""select *
+    sql = f"""select title, description
           from netflix
           where type like '%{typ}%'
           and release_year = '{year}'
